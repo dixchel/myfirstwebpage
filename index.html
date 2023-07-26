@@ -1,0 +1,99 @@
+<!--Declaración del tipo de archivo-->
+<!DOCTYPE html> <!--Parte técnica del código--> 
+
+<!-- HTML: HyperText Markup Lenguage -->
+
+<hmtl Lang="esp">
+
+    <!--indentation tabtabtab-->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Nutrias</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--el body es la estructura de la página uwu-->
+        <h1>Página de Nutrias uwu</h1>
+        <h3>Imágenes de Nutrias tiernas</h3>
+
+        <!--Imagen desde internet-->
+        <img class="img1" src="https://www.recreoviral.com/wp-content/uploads/2015/05/nutrias-mascotas.jpg">
+
+        <!--Imagen desde computadora-->
+        <img class="img2" src="images/617cb13256e52f85d1836ce162d62d29.jpg"> 
+        <img class="img3" src="images/IBGEZO2UNVF73E52TOMEV47MIE.jpg">
+
+        <!--Enlaces externos-->
+        <p>Si quieres saber más acerca de las nutrias, <a href="http://www.nutriapedia.com/" target="_blank">da clic en este enlace</a>.</p>
+
+        <!--Listas-->
+        <h3>Listas de Nutrias</h3>
+
+        <!--Lista ordenada-->
+        <ol> <!--Order List-->
+            <!--b es sólo visual, strong le da jerrquía a la palabra-->
+            <p><b>3 cosas</b> que las nutrias <strong>aman</strong>:</p>
+            <li>Sus piedritas</li>
+            <li>Abrazar</li>
+            <li>Nadar</li> </ol>
+            
+        <!--Lista desordenada-->
+        <ul> <!--Unordered List-->
+            <!--i es sólo visual, em le da jerrquía a la palabra-->
+            <p><i>3 cosas</i> que las nutrias <em>odian:</em></p>
+            <li>Perder su piedrita.</li>
+            <li>Pelear.</li>
+            <li>Los <i><strong>taquitos a vapor</strong></i>.</li> </ul>
+
+            <!--No abusar de los elementos de énfasis pues puede complicar la lectura de la información-->
+
+        <!--Formularios-->
+        <h3>Formularios</h3>
+        
+        <form>
+            <!--Form con botones de radio-->
+            <p>¿Tu nutria tiene piedrita de acompañamiento?</p>
+            <label>
+                <input id="sí" type="radio" value="sí" name="Piedrita" checked>Sí
+            </label> <!--Checked para q la respuesta se muestre pre seleccionada-->
+                    <br> <!--BRake / salto de línea-->
+            <label>
+                <input id="no" type="radio" value="no" name="Piedrita">No
+            </label>
+                    <br>
+            <label>
+                <input id="aún no" type="radio" value="aún no" name="Piedrita">Aún no
+            </label>
+                    <br>
+            <label>
+                <input id="ya casi" type="radio" value="ya casi" name="Piedrita">Ya casi
+            </label>
+
+            <!--Form con casillas de verificación / checks-->
+            <p>¿Qué tipo de personalidad tiene tu nutria?</p>
+            <label>
+                <input id="enojona" type="checkbox" value="enojona" name="Personalidad">Enojona
+            </label>
+
+            <label>
+                <input id="tierna" type="checkbox" value="tierna" name="Personalidad" checked>Tierna
+            </label>
+
+            <label>
+                <input id="enérgica" type="checkbox" value="enérgica" name="Personalidad">Enérgica
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p>
+            <small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">TecnoloChicasPRO</a>.</small>
+        </p>
+    </footer>
+
+</hmtl>

@@ -1,0 +1,45 @@
+/*Comentarios diferentes lmao*/
+/*CCS: Cascading Style Sheets / Hojas de estilo de cascada*/
+
+body{
+    background-color: #cac4a4; 
+    color: #392829; 
+    font-family: 'Dosis', sans-serif;
+}
+
+h3{
+    color: #886e69;
+}
+
+h1, p{
+    color: #5b484b;
+}
+
+.img2{
+    width: 280px; /*ancho*/
+    height: 300px; /*altura*/
+    border-style: dashed;
+    border-color: #886e69;
+    border-width: thick;
+    padding: 5px;
+    margin: 10px;
+}
+
+.img1, .img3{
+    height: 300px;
+    border-style: solid;
+    border-color: #886e69;
+    border-width: thin;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* margin, border, padding, content
+    top / bottom , left / right */
+
+small{
+    color: #baa291;
+}
+
+/* ctrl + el cosito arriba de enter */
+
